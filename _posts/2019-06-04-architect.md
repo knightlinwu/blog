@@ -6,14 +6,14 @@ summary:    Looking back my career, and how I 'accidentally' get into the softwa
 categories: general career architecture
 ---
 
-For my career path, it is updated on my LinkedIn profile. I believe everyone has different track to get where it has been for now, for the sake of this post, as a context, let me have a quick summary on my track so far. 
+For my career path, it should be up to date on my LinkedIn [profile](https://www.linkedin.com/in/knightlinwu/). Everyone has different track to get where it has been for now, for the sake of this post, as a context, let me have a quick summary on my career track so far. 
 
-- 2004 Aug, I was starting as software engineer at very low level embedded devices, including hardware programming by using VHDL on FPGA, and boot loader, drivers and HAL(hardware abstraction layer) for ARM chip-set for smart TV, smart phone devices. 
+- 2004 Aug, I was starting as software engineer working on very low level embedded devices, was working on hardware programming by using VHDL on FPGA, boot loader, drivers and OS HAL(hardware abstraction layer) for ARM chip-set for smart TV, smart phone and hand-held devices. 
 
 - 2008 Jan, I joined Microsoft as software engineer, worked cellular stack and web platform (for Windows Phone browser, Microsoft Edge browser), mainly focused on the HTML engine, performance and Browser architectures. 
 
 - 2017 Oct, I joined Microsoft Advertising team, mainly focused on the architecture of its applications across platforms (Web, Desktop and Mobile), until now (June, 2019). Technically, I am the software architect of Microsoft Advertising applications (Advertiser facing).
 
-So, my career path pretty much starts from quite low level programming, to platform then applications, including web applications. The first time I feel I am starting play as architect role was when I was working on Microsoft Edge browser hosting architecture.
+So, my career path pretty much starts from low level programming, then building application platform and applications. The first time I feel I am starting play as architect role was when I was working on hosting architecture for web platform.
 
-Let talk about what is software architect, what software architect does.
+Let's talk about what is software architect, what software architect does...
