@@ -1,36 +1,51 @@
 ---
 layout:     post
-title:      Software Architect
+title:      Being A Software Architect
 date:       2019-06-04 17:43:00
 summary:    Looking back my career, and how I 'accidentally' get into the software architect role, what is my understanding on what it should play as a role, and stuff I learnt along the way.
 categories: general career architect
 ---
 
-For my career path, it should be up to date on my LinkedIn [profile](https://www.linkedin.com/in/knightlinwu/). Everyone has different track to get where it has been for now, for the sake of this post, as a context, let me have a quick summary on my career track so far. 
+I hope someone could tell me about what the 'Software Architect' should look like and how to play the role before I got into it and sort it out by myself. Maybe it is different for peoples who are playing this role with or without the title, I expect our definition of 'Software Architect' can also be different, that is fine, but, I believe there are something in common worth to be shared here. This is my version of 'Being A Software Architect':
 
-- 2004 Aug, I was starting as software engineer working on very low level embedded devices, was working on hardware programming by using VHDL on FPGA, boot loader, drivers and OS HAL(hardware abstraction layer) on ARM chip-set for smart TV, smart phone and hand-held devices. 
+## There will be lot of decision need you to make
 
-- 2008 Jan, I joined Microsoft as software engineer, worked cellular stack and web platform (for Windows Phone browser, Microsoft Edge browser), mainly focused on the HTML engine, performance and Browser architectures. 
+It can be something big or small, it is not about saying 'Yes' or 'No', most of the time, you need to think through with the understanding of different aspects of the problem, trying to understand the 'root' cause of it, put it in the 'big picture' you have (if not, try to get one, even just a vague one), and see how it will fit with given choices. As always, during the design discussions, I would like to ask, to the myself and team: 'Let's forget about all the constrains for a moment, think about what issues we are talking about, what priority we would like to put on them and what we would like to be in ideal?'. The goal is to set the 'direction' we want to be heading toward, it help us to understand which solution, for short-term or near-term, is aligning better with our long-term direction, are we making improvement toward to the direction we pictured.
 
-- 2017 Oct, I joined Microsoft Advertising team, mainly focused on the architecture of its applications across platforms (Web, Desktop and Mobile), until now (June, 2019). Technically, I am the software architect of Microsoft Advertising applications (Advertiser facing).
+## Try to put a big picture together for the org/team
 
-So, my career path pretty much starts from low level programming, then building application platform and applications. The first time I feel I am starting play as architect role was when I was working on hosting architecture for web platform.
+You won't have it at beginning, that is normal. The points are how to get one, then we can iterate and evolve it along the way. As software architect, there are always particular sets of problem need you to solve, start to build the list, after you have it, and usually, the question need to be answered is 'why they are important which needs to be solved right now'. Keep in mind, there are always piles of problem there, big or small, don't be intimidated and get lost by just trying to address them one by one, you may need to step back a little bit to see the 'big picture' first, and, time to time, try to find the commonality, patterns and causality in between the problems (it sounds like a debugging process, and, indeed, it is a debugging process), and think about the impact of the problems. As architect, in order to make some big changes, you need to be able to articulate the idea, pitch the solution to the teams, including the managers and team mates. The ultimate impact would better to be able to be reflected in the products as business result, no matter you like or not ,that is the real value you can bring to the employer, don't forget about it (Be useful and meaningful).
 
-Let's talk about what is software architect, what software architect does.
+## It is a debugging process
 
-It is all about the scope, the scope of impact the change, change in the system and code base, change the focus on the engineering team. As our day to day work, there is always some design work get involved in certain scope, which may be a design you will implement it by yourself, or for few developers as a crew, but it not all about amount of people gets involved, their are few difference here:
+The bug is a real complex one, an compound of the problems, expecting the fix most likely won't be single line of change. You need to understand the problems, try to get to the 'root cause' of them, then figure out the fix/solution to address them. You may not be able to fix all of them, typically not, since, most of time, you are doing the trade-offs, which means, there are always having Pros and Cons, you need to understand both of them for the decision you made, sometime, it is overwhelming process to evaluate the choices out there, and you may not be able to evaluate all of them, and you can be wrong at some degree, that if fine. you need to accept the fact, and refine your design as needed. It is a process, a process to find the root of the problems, step-in and step-out to understand them, evaluate the ideas, take the first step, try something out, get feedback and refine along the way.
 
-- The architecture design is serving for the products as the organization which will focus on and ship to end user. So, it is to serve the products' needs as beginning and scope of view when you are making the design decision.
-- Since it serve for the product rather than just a set of feature, it need to put the end to end into consideration, including
-    - Coding, which programming languages we we will choose for what purpose
-    - Debugging, for development, for testing, what hardness we can use, is it efficient enough
-    - Testing, how the developer should write test, unit test, component test, integration test, all are serving for its own purpose
-    - Integration, 
-    - CI, 
-    - CD, 
-    - Telemetry, 
-    - Monitoring, 
-    - User support/feedback response
-- The choice is base on the status of the engineering team and looking beyond, their existing expertise and assets
-- Cost, there is always limited resources, as a business, all the effort should be justified, and delivered as part of product to the end user, in some form. Either more fast to add new feature, improved performance, stability, user experience etc,.
-- Plan on how to get to the pictured architecture, the design along the way
+## Your schedule will suck
+
+At certain point, you won't be able to implement every idea you have. That just doesn't scale, sooner, you will find you become the bottle-neck, there are so many design review and code review are waiting for you. Remember, keep the team in high velocity is part of the architecture design, in order to scale well, you need to delegate the work to the teams, pick most important things to focus on, and expect, unblock the team, make them move in-parallel is so important, so, be prepared to jump in any given issue which may slow down the team's velocity. There will be random issues come to your way, asking for help, asking for decision, asking for design feedback etc,. So, how to get use to this and still be able to manage your own schedule become a real challenge here. You may find you talk to different kind of peoples all day long, feel you didn't actaully do anything concrete, like fixing a bug, implement a functionality or sth. This is a quiet tough transition as someone first time experience it. I feel, even now, I am still not fully getting used to it.
+
+## Educate the team
+
+As you won't be able to do the review on all design and changes, there will be something happens in a way not aligning w/ the architecture, big or small. That is another normal here you need to get used to. However, there is something we can do here, which is to educate the team, get them on the same page on the design principles, trust them, let them to spread the idea and do the review on behave of you. And, you need to keep doing this to make sure the message get delivered in a proper form. Remember, beside having automated infra in-place to enforce some design principles, there are ones need to be done manually. Someone ask me on how to improve team's design skill, that is my take:
+
+- There are few efficient ways to help team to learn and share
+    - Design Review
+        - The feature should have design and design review w/ whole team invited (as optional), which should talk about the code design beside going through the user scnearios and high level break down
+        - Feedback should be taken and resolved properly just like how we treat the comments on the PR before moving forward
+    - Code Review (It is a validation of the design in detail)
+        - It takes time to have a helpful review, plan accordingly not just for feature implementation, but also the time for the review (reviewer and reviewee)
+        - Have the mindset to 'be responsible' when asking for review and doing the review
+    - Share the cookbook/channel about the patterns and usage examples
+        - We definitely can build the 'cookbook' on the patterns and pitfalls when designing and using the tech stacks, and share with the teams
+        - Some sharing 'brownbag/announcement' maybe helpful to kick off some dicussion and get idea/knowledge spread
+- Need some alignment, emphasis, recognition and encouragement
+    - Emphasize on the usage/purpose of the 'Design Review' and 'Code Review'
+    - Spend the effort to build some shared components, documentation, and tool sets should encouraged and recognized
+    - The discussion with constructive feedback should encouraged
+    - And we also need to be caution about over-design at first place, some refactor will be necessary as we get more requirements along the way
+
+Design review and code review are most proper way to guide the team to the same direction, it is also a great tool to grow the team in tech skills. Emphasize the usage and important of the tools, encourage healthy discussion is always necessary and beneficial.
+
+## Influence w/o authority
+
+This is a term I got afterward, as an software architect, I believe beside the supports from your manager, you, as the same important if not more, need the support and respect from the teams as well. I guess top-down enforce approach works for some cases, but, in the end of day, you need the ones who carry on the idea to buy-in and make it happen. Most likely, you might be same as I am, who is an IC('Individual Contributor') without any direct reports, in some company setup, the people manager is the one have the power to assign the work items and allocate the resources. As architect, in order to make idea into real, you need the resources to work with you, and beside pitching the idea, you also need to convince the manager to support it by allocating the resources to it. It become tricky when they have different priority & delivery goal with you, even harder, if you have different belief on the architecture and design. What you are gonna do here? First, you need to understand the fact here, it will have different goal as yours, for example, team need to deliver feature x,y,z in this quarter. You may not be able to get resource you want. Sometime you may need to leverage the support from your manager to push sth forward, but, most of the time, you need to figure it out by yourself. Along the way, may take from it is, in order to get support w/o authority, you need to be able to pitch the idea in a way relate tot he goal others have, in other word, try to align on the goal. It sounds vague, actually, it is vague, because it is not a simple approach I can just summarize as steps here. But, there is always something you can be helpful to others, and try to be as helpful as you can, it is not just to help the team, it actually will help you as result to make thing happen. That is exactly what I positioned myself, trying to be helpful for anyone who needs the help, this is the process to gain the trust and help when you need it.
