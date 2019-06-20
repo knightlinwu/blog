@@ -65,4 +65,4 @@ Sometime you may need to leverage the support from your manager to push somethin
 
 ## Summary
 
-As software architect, it is to structure the system to better server products' needs for now and future, figure out the way and steps to transform the system from existing one to more proper one, it also helps to form the culture, grow the team and lead them along the way.
+Software architect, it is to **structure the system to better server products' needs** for now and forseeable future, figure out **the way and steps to transform the system from existing one to a more proper one**, it also **helps to form the culture, grow the team and lead them along the way**.
