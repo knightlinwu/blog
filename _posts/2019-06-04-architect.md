@@ -6,6 +6,8 @@ summary:    I hope someone could tell me about what the 'Software Architect' sho
 categories: general career architect
 ---
 
+![draft]({{ site.url }}/images/posts/architect-draft.jpg)
+
 I hope someone could tell me about what the 'Software Architect' should look like and how to play the role before I got into it and sort it out by myself. Maybe it is different for peoples who are playing this role with or without the title, I expect our definition of 'Software Architect' can also be different, that is fine, but, I believe there are something in common worth to be shared here. 
 
 This is my version of 'Being A Software Architect':
