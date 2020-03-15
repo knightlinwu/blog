@@ -8,7 +8,7 @@ tags: about
 ![Me]({{ site.url }}/images/me.jpeg)
 ### [Knight Lin](https://www.linkedin.com/in/knightlinwu/)
 
-Software Engineer @ Microsoft
+Software Engineer @ Facebook
 
-> Love learning new things, passionate about Performance, Web Browser, Software Architecture, IoT and Web Applications.
+> Passionate about Performance, Web Browser, Software Architecture, IoT and Web Applications.
 
