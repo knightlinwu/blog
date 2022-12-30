@@ -8,9 +8,9 @@ tags: about
 ![Me]({{ site.url }}/images/me.jpeg)
 ### [Knight Lin](https://www.linkedin.com/in/knightlinwu/)
 
-Software Engineer @ Facebook
+Software Engineer @ Facebook, ex-Microsoft
 
 Passionate about Performance, Web Browser, Software Architecture, IoT and Web Applications.
 
-> Experience new thing and learn from it, all the challenges will be opprotunities to grow. The most invaluable thing will get out it are: growth of yourself and knowing the good peoples. Get hands dirty, be open and curious, keep learning. And, don't forget the life around you. - 2019/7/8
+> Embrace new experiences and use them as opportunities to learn and grow. The greatest benefits of stepping outside of your comfort zone are personal growth and the opportunity to meet and connect with good people. Embrace challenges, stay open-minded and curious, and always keep learning. And don't forget to appreciate and engage with the world around you. - 2019/7/8
 
